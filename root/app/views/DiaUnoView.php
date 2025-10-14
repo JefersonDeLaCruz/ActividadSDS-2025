@@ -192,7 +192,7 @@ include '../public/static/blocks/head.php';
                 
                 <?php 
                 //optimizacion de clases repetidas
-                $imgClass = "w-0 flex-1 object-cover opacity-60 transition-all duration-500 ease-in-out hover:cursor-pointer hover:w-[350px] hover:opacity-100 hover:contrast-125 hover:scale-105 rounded-sm";
+                $imgClass = "w-0 flex-1 object-cover opacity-80 transition-all duration-500 ease-in-out hover:cursor-pointer hover:w-[350px] hover:opacity-100 hover:contrast-125 hover:scale-105 rounded-sm";
                 
                 //array con las rutas de imagenes para no repetir tanto codigo
                 $imagenes = [
