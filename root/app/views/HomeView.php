@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="/root/public/static/css/output.css">
-    <link rel="stylesheet" href="/../../static/css/test.css">
+    <link rel="stylesheet" href="../public/static/css/output.css">
 </head>
 <body class="">
-    <nav class="w-[260px] bg-sky-300">
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="./contacto">Contacto</a></li>
-        </ul>
-    </nav>
+    
+    <?php include '../public/static/blocks/navbar.php'; ?>
     
     <h1>Bienvenido</h1>
     <p>Esta es la pagina principal</p>
+
+    <span class="btn">avla</span>
 </body>
 </html>

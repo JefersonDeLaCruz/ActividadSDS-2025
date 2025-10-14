@@ -5,10 +5,11 @@ WORKDIR /app
 RUN mkdir css
 RUN mkdir js
 RUN mkdir templates
+RUN mkdir blocks
+
 
 RUN npm install tailwindcss @tailwindcss/cli
 
 RUN npm i -D daisyui@latest
 
 ENTRYPOINT ["npx", "tailwindcss", "-i", "./css/input.css", "-o", "./css/output.css", "--watch"]
-# ENTRYPOINT ["npx", "tailwindcss", "-i", "./css/input.css", "-o", "./css/output.css", "--watch", "--content", "./templates/**/*.html ./static/**/*.html ./static/**/*.js"]

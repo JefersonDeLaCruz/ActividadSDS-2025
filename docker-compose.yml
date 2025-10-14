@@ -57,6 +57,7 @@ services:
       - ./root/public/static/css:/app/css
       - ./root/public/static/js:/app/js
       - ./root/app/views:/app/templates
+      - ./root/public/static/blocks:/app/blocks
     tty: true
     stdin_open: true
 
