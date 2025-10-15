@@ -17,14 +17,74 @@
     <!-- list item -->
     <li>
         <a href="./DiaUno" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Dia 1">
+            <!-- Calendar icon for Dia 1 -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round"
                 stroke-width="2" fill="none" stroke="currentColor" class="inline-block size-4 my-1.5">
-                <path d="M20 7h-9"></path>
-                <path d="M14 17H5"></path>
-                <circle cx="17" cy="17" r="3"></circle>
-                <circle cx="7" cy="7" r="3"></circle>
+                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                <path d="M16 2v4"></path>
+                <path d="M8 2v4"></path>
+                <path d="M3 10h18"></path>
             </svg>
             <span class="is-drawer-close:hidden">Dia 1</span>
+        </a>
+    </li>
+
+    <li>
+        <a href="./DiaDos" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Dia 2">
+            <!-- Clipboard/list icon for Dia 2 -->
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round"
+                stroke-width="2" fill="none" stroke="currentColor" class="inline-block size-4 my-1.5">
+                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                <path d="M16 2v4"></path>
+                <path d="M8 2v4"></path>
+                <path d="M3 10h18"></path>
+            </svg>
+            <span class="is-drawer-close:hidden">Dia 2</span>
+        </a>
+    </li>
+    
+    <!-- list item Dia 3 -->
+    <li>
+        <a href="./DiaTres" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Dia 3">
+            <!-- Calendar icon (same as Dia 1) -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round"
+                stroke-width="2" fill="none" stroke="currentColor" class="inline-block size-4 my-1.5">
+                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                <path d="M16 2v4"></path>
+                <path d="M8 2v4"></path>
+                <path d="M3 10h18"></path>
+            </svg>
+            <span class="is-drawer-close:hidden">Dia 3</span>
+        </a>
+    </li>
+
+    <!-- list item Dia 4 -->
+    <li>
+        <a href="./DiaCuatro" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Dia 4">
+            <!-- Calendar icon (same as Dia 1) -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round"
+                stroke-width="2" fill="none" stroke="currentColor" class="inline-block size-4 my-1.5">
+                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                <path d="M16 2v4"></path>
+                <path d="M8 2v4"></path>
+                <path d="M3 10h18"></path>
+            </svg>
+            <span class="is-drawer-close:hidden">Dia 4</span>
+        </a>
+    </li>
+
+    <!-- list item Dia 5 -->
+    <li>
+        <a href="./DiaCinco" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Dia 5">
+            <!-- Calendar icon (same as Dia 1) -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round"
+                stroke-width="2" fill="none" stroke="currentColor" class="inline-block size-4 my-1.5">
+                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                <path d="M16 2v4"></path>
+                <path d="M8 2v4"></path>
+                <path d="M3 10h18"></path>
+            </svg>
+            <span class="is-drawer-close:hidden">Dia 5</span>
         </a>
     </li>
 </ul>

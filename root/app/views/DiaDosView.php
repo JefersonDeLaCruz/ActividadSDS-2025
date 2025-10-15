@@ -2,7 +2,7 @@
 <html lang="en" data-theme="black">
 
 <?php
-$titulo = "avala que jopa";
+$titulo = "Dia Dos";
 include '../public/static/blocks/head.php';
 ?>
 
