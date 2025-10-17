@@ -245,7 +245,6 @@ include '../public/static/blocks/head.php';
                 // Array con las rutas de imágenes de la Comelona de Pupusas
                 $imagenesPupusas = [
                     "D4-PUPA-1.jpg",
-                    "D4-1.jpg",
                     "D4-PUPA-2.jpg", 
                 ];
                 ?>
@@ -255,6 +254,11 @@ include '../public/static/blocks/head.php';
                         <img class="<?= $imgClass ?>" src="../public/static/images/<?= $img ?>" alt="Competencia de Pupusas día 4">
                     <?php endforeach; ?>
                 </section>
+
+                <!-- Imagen destacada -->
+                <div class="w-full max-w-[1200px] mx-auto px-4 mb-8">
+                    <img class="w-full h-auto object-contain rounded-lg shadow-xl" src="../public/static/images/D4-1.jpg" alt="Momento destacado de la competencia de pupusas">
+                </div>
             </div>
 
         </div>
