@@ -6,6 +6,8 @@ use app\controllers\HomeController;
 use app\controllers\DiaUnoController;
 use app\controllers\DiaDosController;
 use app\controllers\DiaCuatroController;
+use app\controllers\DiaCincoController;
+use app\controllers\DiaTresController;
 
 
 
@@ -29,6 +31,15 @@ Route::get("/DiaDos", function() {
 
 Route::get("/DiaCuatro", function() {
     $controller = new DiaCuatroController();
+    return $controller->index();
+});
+
+Route::get("/DiaCinco", function() {
+    $controller = new DiaCincoController();
+    return $controller->index();
+});
+Route::get("/DiaTres", function() {
+    $controller = new DiaTresController();
     return $controller->index();
 });
 
