@@ -8,6 +8,7 @@ use app\controllers\DiaDosController;
 use app\controllers\DiaCuatroController;
 use app\controllers\DiaCincoController;
 use app\controllers\DiaTresController;
+use app\controllers\InicioController;
 
 
 
@@ -40,6 +41,10 @@ Route::get("/DiaCinco", function() {
 });
 Route::get("/DiaTres", function() {
     $controller = new DiaTresController();
+    return $controller->index();
+});
+Route::get("/Inicio", function() {
+    $controller = new InicioController();
     return $controller->index();
 });
 

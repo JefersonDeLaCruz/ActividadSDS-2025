@@ -2,7 +2,7 @@
 
     <!-- list item -->
     <li>
-        <button class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Inicio">
+        <a href="./" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Inicio">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round"
                 stroke-width="2" fill="none" stroke="currentColor" class="inline-block size-4 my-1.5">
                 <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
@@ -11,12 +11,12 @@
                 </path>
             </svg>
             <span class="is-drawer-close:hidden">Inicio</span>
-        </button>
+        </a>
     </li>
 
     <!-- list item -->
     <li>
-        <a href="./DiaUno" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Dia 1">
+        <a href="./DiaUno" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Bitcoin e IA">
             <!-- Calendar icon for Dia 1 -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round"
                 stroke-width="2" fill="none" stroke="currentColor" class="inline-block size-4 my-1.5">
@@ -25,12 +25,12 @@
                 <path d="M8 2v4"></path>
                 <path d="M3 10h18"></path>
             </svg>
-            <span class="is-drawer-close:hidden">Dia 1</span>
+            <span class="is-drawer-close:hidden">Bitcoin e IA</span>
         </a>
     </li>
 
     <li>
-        <a href="./DiaDos" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Dia 2">
+        <a href="./DiaDos" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Datos & Laravel">
             <!-- Clipboard/list icon for Dia 2 -->
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round"
                 stroke-width="2" fill="none" stroke="currentColor" class="inline-block size-4 my-1.5">
@@ -39,7 +39,7 @@
                 <path d="M8 2v4"></path>
                 <path d="M3 10h18"></path>
             </svg>
-            <span class="is-drawer-close:hidden">Dia 2</span>
+            <span class="is-drawer-close:hidden">Datos & Laravel</span>
         </a>
     </li>
     
@@ -60,7 +60,7 @@
 
     <!-- list item Dia 4 -->
     <li>
-        <a href="./DiaCuatro" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Dia 4">
+        <a href="./DiaCuatro" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Feria & Pupusas">
             <!-- Calendar icon (same as Dia 1) -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round"
                 stroke-width="2" fill="none" stroke="currentColor" class="inline-block size-4 my-1.5">
@@ -69,13 +69,13 @@
                 <path d="M8 2v4"></path>
                 <path d="M3 10h18"></path>
             </svg>
-            <span class="is-drawer-close:hidden">Dia 4</span>
+            <span class="is-drawer-close:hidden">Feria & Pupusas</span>
         </a>
     </li>
 
     <!-- list item Dia 5 -->
     <li>
-        <a href="./DiaCinco" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Dia 5">
+        <a href="./DiaCinco" class="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Bingo & Clash Royale">
             <!-- Calendar icon (same as Dia 1) -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linejoin="round" stroke-linecap="round"
                 stroke-width="2" fill="none" stroke="currentColor" class="inline-block size-4 my-1.5">
@@ -84,7 +84,7 @@
                 <path d="M8 2v4"></path>
                 <path d="M3 10h18"></path>
             </svg>
-            <span class="is-drawer-close:hidden">Dia 5</span>
+            <span class="is-drawer-close:hidden">Bingo & Clash Royale</span>
         </a>
     </li>
 </ul>

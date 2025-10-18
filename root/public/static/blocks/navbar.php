@@ -15,14 +15,14 @@
             <li><a data-set-theme="dark" data-act-class="ACTIVECLASS">Oscuro</a></li>
         </ul>
     </li>
-    <li><a>Item 3</a></li>
+    <li><a>Registrar Visita</a></li>
 </ul>
 </div>
 <a class="btn btn-ghost text-xl">daisyUI</a>
 </div>
 <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-        <li><a>Inicio</a></li>
+        <li><a href="./">Inicio</a></li>
         <li>
             <details>
                 <summary>Tema</summary>
@@ -32,7 +32,7 @@
           </ul>
         </details>
       </li>
-      <li><a>Item 3</a></li>
+      <li><a>Registrar Visita</a></li>
     </ul>
   </div>
 </div>
