@@ -15,9 +15,55 @@ include '../public/static/blocks/head.php';
 
             <?php include '../public/static/blocks/navbar.php'; ?>
 
-            <br>
-            <br>
-            <br>
+            <div class="max-w-7xl mx-auto px-4 py-8">
+                
+                <!-- Sección de Información Personal -->
+                <div class="card bg-gradient-to-br from-blue-500/10 to-purple-500/10 shadow-xl mb-8 border-2 border-primary/30">
+                    <div class="card-body">
+                        <div class="flex flex-col md:flex-row gap-6 items-center md:items-start">
+                            <!-- Foto Personal -->
+                            <div class="avatar">
+                                <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                                    <img src="../public/static/images/yo.jpg" alt="Jeferson Alexis De La Cruz Ventura" />
+                                </div>
+                            </div>
+                            
+                            <!-- Información -->
+                            <div class="flex-1">
+                                <h2 class="text-3xl font-bold mb-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                                    Jeferson Alexis De La Cruz Ventura
+                                </h2>
+                                <div class="flex flex-wrap gap-2 mb-3">
+                                    <div class="badge badge-primary">3er Año</div>
+                                    <div class="badge badge-secondary">Ing. Sistemas Informáticos</div>
+                                    <div class="badge badge-accent">21 años</div>
+                                </div>
+                                <p class="text-base-content/80 leading-relaxed mb-3">
+                                    Estudiante apasionado de <span class="font-semibold text-primary">Ingeniería en Sistemas Informáticos</span> 
+                                    en la Universidad de El Salvador, Facultad Multidisciplinaria Oriental. Con un gran entusiasmo por el 
+                                    desarrollo de software, disfruto enfrentando desafíos técnicos y creando soluciones para nada innovadoras.
+                                </p>
+                                <p class="text-base-content/70 text-sm italic">
+                                    "Aunque el desarrollo puede ser frustrante en ocasiones cuando encuentro obstáculos, cada desafío 
+                                    superado me motiva a seguir aprendiendo y mejorando mis habilidades."
+                                </p>
+                                <div class="flex gap-2 mt-4">
+                                    <div class="tooltip" data-tip="Desarrollo Web">
+                                        <div class="badge badge-outline">💻 Full Stack (not today sure)</div>
+                                    </div>
+                                    <div class="tooltip" data-tip="Resolución de Problemas">
+                                        <div class="badge badge-outline">🧩 Problem Solving</div>
+                                    </div>
+                                    <div class="tooltip" data-tip="Aprendizaje Continuo">
+                                        <div class="badge badge-outline">📚 Lifelong Learner</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
             <div class="max-w-7xl mx-auto px-4 py-8">
                 
