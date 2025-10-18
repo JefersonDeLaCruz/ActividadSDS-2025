@@ -1,30 +1,30 @@
 <?php
+
 namespace lib;
 use PDO;
-use PDOException;
-
-
 
 class Database
 {
-    private $host = "db";
-    private $db_name = "mvc";
-    private $username = "root";
-    private $password = "rootpass";
+    public $host = "db";
+    public $dbname = "usuarios";
+    public $username = "root";
+    public $password = "rootpass";
 
     public $conn;
 
-    public function getConnection()
+    //metodo publico para obtener la conexion, nombre usado por modelos
+    public function getConnetion()
     {
         $this->conn = null;
 
         try {
-            $this->conn = new PDO("mysql:host=" . $this->host . ";dbname=" . $this->db_name, $this->username, $this->password);
+            $this->conn = new PDO("mysql:host=" . $this->host . ";dbname=" . $this->dbname, $this->username, $this->password);
             $this->conn->exec("set names utf8");
-        } catch (PDOException $exception) {
-            echo "Connection error: " . $exception->getMessage();
+            $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        } catch (\Throwable $th) {
+            //mostrar error simple para depuracion
+            echo $th;
         }
-
         return $this->conn;
     }
 }

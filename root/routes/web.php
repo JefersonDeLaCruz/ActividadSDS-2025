@@ -9,6 +9,8 @@ use app\controllers\DiaCuatroController;
 use app\controllers\DiaCincoController;
 use app\controllers\DiaTresController;
 use app\controllers\InicioController;
+use app\controllers\VisitasController;
+
 
 
 
@@ -47,6 +49,20 @@ Route::get("/Inicio", function() {
     $controller = new InicioController();
     return $controller->index();
 });
+
+
+Route::get("/Visita", function() {
+    $controller = new VisitasController();
+    return $controller->index();
+});
+
+
+Route::post("/visitas/registrar", function() {
+    $controller = new VisitasController();
+    return $controller->store();
+});
+
+
 
 
 

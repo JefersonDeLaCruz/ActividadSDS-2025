@@ -15,7 +15,7 @@
             <li><a data-set-theme="dark" data-act-class="ACTIVECLASS">Oscuro</a></li>
         </ul>
     </li>
-    <li><a>Registrar Visita</a></li>
+    <li><a href="./Visita">Registrar Visita</a></li>
 </ul>
 </div>
 <a class="btn btn-ghost text-xl">daisyUI</a>
@@ -32,7 +32,7 @@
           </ul>
         </details>
       </li>
-      <li><a>Registrar Visita</a></li>
+      <li><a href="./Visita">Registrar Visita</a></li>
     </ul>
   </div>
 </div>

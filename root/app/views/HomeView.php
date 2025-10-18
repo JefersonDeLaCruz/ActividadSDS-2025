@@ -15,6 +15,10 @@ include '../public/static/blocks/head.php';
 
             <?php include '../public/static/blocks/navbar.php'; ?>
 
+            <br>
+            <br>
+            <br>
+
             <div class="max-w-7xl mx-auto px-4 py-8">
                 
                 <!-- Hero Section con Logo -->
